@@ -1,0 +1,6 @@
+from datetime import datetime, timedelta
+  
+updated = ( datetime.now() +
+           timedelta( hours=-3)).strftime('%H:%M:%S') 
+  
+print('ola mundo! são',datetime.now())

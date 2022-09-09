@@ -1,0 +1,25 @@
+#listar arquivos 
+import os
+import shutil 
+arquivos = os.listdir('original')
+print(arquivos)
+
+#copiar 
+import shutil
+#shutil.copy2('original' , 'backup/original')
+
+#lista de arquivos 
+lista_arquivos = os.listdir()
+
+for arquivo in lista_arquivos:
+  #if 'txt' in arquivo:
+   # if 'README.md' in arquivo:
+    
+    #jogar para pasta testedecopia
+       shutil.copy( arquivo, 'original')
+  
+
+
+
+
+
